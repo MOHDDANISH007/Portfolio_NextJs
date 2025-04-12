@@ -1,24 +1,35 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { ExternalLink, Github } from "lucide-react";
 
 import Image1 from "../../constants/homeChef_app.png";
 import Image2 from "../../constants/country_app.png";
 import Image3 from "../../constants/EmployeAdminMangement.png";
 
-const Projects = () => {
-  const [activeProject, setActiveProject] = useState(null);
+// 👇 Interface definition
+interface Project {
+  title: string;
+  description: string;
+  image: string | StaticImageData;
+  technologies: string[];
+  liveUrl: string;
+  githubUrl: string;
+  features: string[];
+}
 
-  const toggleOverlay = (index) => {
+const Projects = () => {
+  const [activeProject, setActiveProject] = useState<number | null>(null);
+
+  const toggleOverlay = (index: number) => {
     const isMobile = window.innerWidth < 768; // tailwind's 'md'
     if (isMobile) {
       setActiveProject((prev) => (prev === index ? null : index));
     }
   };
 
-  const ProjectData = [
+  const ProjectData: Project[] = [
     {
       title: "The Home Chef",
       description:
