@@ -19,10 +19,10 @@ const Hero = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-yellow-400">
-              Hi, I'm Mohammad Danish
+              Hi, I&apos;m Mohammad Danish
             </h1>
             <p className="text-base sm:text-lg md:text-xl">
-              I'm a Full Stack Developer with a passion for creating innovative and
+              I&apos;m a Full Stack Developer with a passion for creating innovative and
               user-friendly web applications.
             </p>
             <div className="flex flex-wrap gap-4">

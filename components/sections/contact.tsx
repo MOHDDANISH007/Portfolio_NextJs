@@ -16,11 +16,11 @@ const Contact = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h2 className="text-4xl font-bold mb-6 text-yellow-400">
-                        Let's Connect
+                        Let&apos;s Connect
                     </h2>
 
                     <p className="text-gray-400 mb-8">
-                        I'm always open to discussing new opportunities or collaborations.
+                        I&apos;m always open to discussing new opportunities or collaborations.
                         Whether you have a project in mind or just want to chat, feel free to
                         reach out!
                     </p>
