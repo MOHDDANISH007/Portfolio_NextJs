@@ -5,8 +5,8 @@ const nextConfig = {
       'images.unsplash.com',
       'cdn.jsdelivr.net',
       'raw.githubusercontent.com',
-      'seeklogo.com',  // Already added earlier
-      'miro.medium.com' // Added new domain
+      'seeklogo.com', 
+      'miro.medium.com'
     ],
   },
 };
