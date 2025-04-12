@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md text-white">
-            <div className="container mx-auto px-4 py-6">
+            <div className="container mx-auto px-4 py-6 md:px-20">
                 <div className="flex items-center justify-between">
                     <h1 className="text-4xl font-extrabold text-yellow-400 tracking-wide">Mohammad Danish</h1>
 

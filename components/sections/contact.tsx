@@ -8,7 +8,7 @@ import contactImage from "../../public/contact.svg";
 
 const Contact = () => {
     return (
-        <section className="bg-black text-white py-20 px-4">
+        <section className="bg-black text-white py-20 px-4 md:px-20 md:py-20">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}

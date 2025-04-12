@@ -93,7 +93,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="bg-black text-white py-16 px-4">
+    <section id="projects" className="bg-black text-white py-16 px-4 md:px-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

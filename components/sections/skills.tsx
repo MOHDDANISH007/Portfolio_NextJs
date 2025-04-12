@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Skills = () => {
   return (
-    <div className="bg-black px-4 py-12">
+    <div className="bg-black px-4 py-12 md:px-20">
       <h2 className="text-3xl font-bold mb-12 text-center text-yellow-400">
         Skills & Technologies
       </h2>

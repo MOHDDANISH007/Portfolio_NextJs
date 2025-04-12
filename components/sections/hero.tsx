@@ -10,7 +10,7 @@ import HeroImage from "@/public/here2.svg";
 const Hero = () => {
   return (
     <section className="w-full mt-10 bg-black text-white">
-      <div className="container mx-auto px-4 pt-32 pb-20">
+      <div className="container mx-auto px-4 pt-32 pb-20 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
