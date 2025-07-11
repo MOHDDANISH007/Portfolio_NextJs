@@ -75,6 +75,29 @@ const Projects = () => {
   ],
 },
     {
+  title: "TripAdvisor Clone",
+  description:
+    "A travel platform clone built for the Pixel Hackathon by Outlier, featuring photo-based reward systems, AI-powered experience sharing, and modern UI themes using cutting-edge technologies.",
+  image: Image3, // Replace with actual image variable
+  technologies: [
+    "Next.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Google Gemini AI"
+  ],
+  liveUrl: "https://lnkd.in/g74UYx2x",
+  githubUrl: "https://lnkd.in/gbSE8qwq",
+  features: [
+    "Photo Gallery with upload rewards",
+    "AI-generated travel advice (Prototype)",
+    "Dark/Light Mode toggle",
+    "Responsive design",
+    "Modern UX/UI with Tailwind CSS",
+    "Prototype integration with AI (Google Gemini)",
+    "Planned real-time experience sharing via WebSockets"
+  ],
+},
+    {
       title: "Employee Management System",
       description:
         "A web-based Employee Management System built using ReactJS with Context API for global state management...",
