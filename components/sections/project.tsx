@@ -7,6 +7,10 @@ import { ExternalLink, Github } from "lucide-react";
 import Image1 from "../../constants/homeChef_app.png";
 import Image2 from "../../constants/country_app.png";
 import Image3 from "../../constants/EmployeAdminMangement.png";
+import Image4 from "../../constants/EmployeAdminMangement.png";
+import Image5 from "../../constants/EmployeAdminMangement.png";
+  
+  
 
 // 👇 Interface definition
 interface Project {
@@ -49,7 +53,7 @@ const Projects = () => {
   title: "GameKart",
   description:
     "An end-to-end gaming e-commerce platform featuring AI-powered game recommendations, secure JWT authentication, dynamic listings, and seamless CI/CD deployment.",
-  image: Image2, // Replace with the actual image variable
+  image: Image4, // Replace with the actual image variable
   technologies: [
     "Next.js",
     "React.js",
@@ -78,7 +82,7 @@ const Projects = () => {
   title: "TripAdvisor Clone",
   description:
     "A travel platform clone built for the Pixel Hackathon by Outlier, featuring photo-based reward systems, AI-powered experience sharing, and modern UI themes using cutting-edge technologies.",
-  image: Image3, // Replace with actual image variable
+  image: Image5, // Replace with actual image variable
   technologies: [
     "Next.js",
     "JavaScript",
