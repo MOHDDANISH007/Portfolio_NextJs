@@ -46,6 +46,35 @@ const Projects = () => {
       ],
     },
     {
+  title: "GameKart",
+  description:
+    "An end-to-end gaming e-commerce platform featuring AI-powered game recommendations, secure JWT authentication, dynamic listings, and seamless CI/CD deployment.",
+  image: Image2, // Replace with the actual image variable
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT"
+  ],
+  liveUrl: "https://lnkd.in/gwiwskbX",
+  githubUrl: "https://lnkd.in/gqXJZ-sC",
+  features: [
+    "Secure JWT Authentication",
+    "AI-powered game recommendations",
+    "RESTful API with custom middleware",
+    "Advanced search & filters",
+    "Dynamic cart functionality",
+    "Protected routes for users",
+    "Responsive mobile-first UI",
+    "Framer Motion animations",
+    "CI/CD pipeline with automated deployment"
+  ],
+},
+    {
       title: "Employee Management System",
       description:
         "A web-based Employee Management System built using ReactJS with Context API for global state management...",
