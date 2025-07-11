@@ -7,11 +7,11 @@ import { ExternalLink, Github } from "lucide-react";
 import Image1 from "../../constants/homeChef_app.png";
 import Image2 from "../../constants/country_app.png";
 import Image3 from "../../constants/EmployeAdminMangement.png";
-import Image4 from "../../constants/EmployeAdminMangement.png";
-import Image5 from "../../constants/EmployeAdminMangement.png";                                        
-import Image5 from "../../constants/EmployeAdminMangement.png";
-  
-  
+import Image4 from "../../constants/GameNation.png";
+import Image5 from "../../constants/FinanceAI.png";
+import Image6 from "../../constants/TripAdvisor.png"
+
+
 
 // 👇 Interface definition
 interface Project {
@@ -51,87 +51,87 @@ const Projects = () => {
       ],
     },
     {
-  title: "GameKart",
-  description:
-    "An end-to-end gaming e-commerce platform featuring AI-powered game recommendations, secure JWT authentication, dynamic listings, and seamless CI/CD deployment.",
-  image: Image4, // Replace with the actual image variable
-  technologies: [
-    "Next.js",
-    "React.js",
-    "Tailwind CSS",
-    "Framer Motion",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "JWT"
-  ],
-  liveUrl: "https://lnkd.in/gwiwskbX",
-  githubUrl: "https://lnkd.in/gqXJZ-sC",
-  features: [
-    "Secure JWT Authentication",
-    "AI-powered game recommendations",
-    "RESTful API with custom middleware",
-    "Advanced search & filters",
-    "Dynamic cart functionality",
-    "Protected routes for users",
-    "Responsive mobile-first UI",
-    "Framer Motion animations",
-    "CI/CD pipeline with automated deployment"
-  ],
-},
+      title: "GameKart",
+      description:
+        "An end-to-end gaming e-commerce platform featuring AI-powered game recommendations, secure JWT authentication, dynamic listings, and seamless CI/CD deployment.",
+      image: Image4, // Replace with the actual image variable
+      technologies: [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT"
+      ],
+      liveUrl: "https://project-2-frontend-l4gj.onrender.com/",
+      githubUrl: "https://lnkd.in/gqXJZ-sC",
+      features: [
+        "Secure JWT Authentication",
+        "AI-powered game recommendations",
+        "RESTful API with custom middleware",
+        "Advanced search & filters",
+        "Dynamic cart functionality",
+        "Protected routes for users",
+        "Responsive mobile-first UI",
+        "Framer Motion animations",
+        "CI/CD pipeline with automated deployment"
+      ],
+    },
     {
-  title: "Let AI Speak to Your Money",
-  description:
-    "An AI-powered financial assistant that securely connects to real-time financial data via Fi's MCP API. It helps users make smart money decisions using natural language chat, scenario simulations, and interactive financial charts.",
-  image: Image6, // Replace with actual image variable
-  technologies: [
-    "React.js",
-    "Tailwind CSS",
-    "Chart.js",
-    "Node.js",
-    "Express.js",
-    "Axios",
-    "MongoDB",
-    "Groq",
-    "LLaMA 3",
-    "Fi's MCP API"
-  ],
-  liveUrl: "https://new-frontend-ax82.onrender.com/",
-  githubUrl: "https://github.com/MOHDDANISH007/parisHackathon",
-  features: [
-    "Chat-based AI financial assistant",
-    "Real-time scenario simulations (e.g., 'What if I buy this car?')",
-    "Secure integration with Fi’s MCP for structured data",
-    "Visual financial charts (net worth, assets, liabilities)",
-    "Natural language query handling via Groq + LLaMA 3",
-    "Voice or text input interface",
-    "Exportable PDF financial reports",
-    "User-controlled data privacy and end-to-end security"
-  ],
-},
+      title: "Let AI Speak to Your Money",
+      description:
+        "An AI-powered financial assistant that securely connects to real-time financial data via Fi's MCP API. It helps users make smart money decisions using natural language chat, scenario simulations, and interactive financial charts.",
+      image: Image5, // Replace with actual image variable
+      technologies: [
+        "React.js",
+        "Tailwind CSS",
+        "Chart.js",
+        "Node.js",
+        "Express.js",
+        "Axios",
+        "MongoDB",
+        "Groq",
+        "LLaMA 3",
+        "Fi's MCP API"
+      ],
+      liveUrl: "https://new-frontend-ax82.onrender.com/",
+      githubUrl: "https://github.com/MOHDDANISH007/parisHackathon",
+      features: [
+        "Chat-based AI financial assistant",
+        "Real-time scenario simulations (e.g., 'What if I buy this car?')",
+        "Secure integration with Fi’s MCP for structured data",
+        "Visual financial charts (net worth, assets, liabilities)",
+        "Natural language query handling via Groq + LLaMA 3",
+        "Voice or text input interface",
+        "Exportable PDF financial reports",
+        "User-controlled data privacy and end-to-end security"
+      ],
+    },
     {
-  title: "TripAdvisor Clone",
-  description:
-    "A travel platform clone built for the Pixel Hackathon by Outlier, featuring photo-based reward systems, AI-powered experience sharing, and modern UI themes using cutting-edge technologies.",
-  image: Image5, // Replace with actual image variable
-  technologies: [
-    "Next.js",
-    "JavaScript",
-    "Tailwind CSS",
-    "Google Gemini AI"
-  ],
-  liveUrl: "https://lnkd.in/g74UYx2x",
-  githubUrl: "https://lnkd.in/gbSE8qwq",
-  features: [
-    "Photo Gallery with upload rewards",
-    "AI-generated travel advice (Prototype)",
-    "Dark/Light Mode toggle",
-    "Responsive design",
-    "Modern UX/UI with Tailwind CSS",
-    "Prototype integration with AI (Google Gemini)",
-    "Planned real-time experience sharing via WebSockets"
-  ],
-},
+      title: "TripAdvisor Clone",
+      description:
+        "A travel platform clone built for the Pixel Hackathon by Outlier, featuring photo-based reward systems, AI-powered experience sharing, and modern UI themes using cutting-edge technologies.",
+      image: Image6, // Replace with actual image variable
+      technologies: [
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "Google Gemini AI"
+      ],
+      liveUrl: "https://lnkd.in/g74UYx2x",
+      githubUrl: "https://lnkd.in/gbSE8qwq",
+      features: [
+        "Photo Gallery with upload rewards",
+        "AI-generated travel advice (Prototype)",
+        "Dark/Light Mode toggle",
+        "Responsive design",
+        "Modern UX/UI with Tailwind CSS",
+        "Prototype integration with AI (Google Gemini)",
+        "Planned real-time experience sharing via WebSockets"
+      ],
+    },
     {
       title: "Employee Management System",
       description:
@@ -214,9 +214,8 @@ const Projects = () => {
                 className="object-cover w-full h-full hover:scale-110 transition-transform duration-300"
               />
               <div
-                className={`absolute inset-0 bg-black/60 ${
-                  activeProject === index ? "opacity-100" : "opacity-0"
-                } hover:opacity-100 transition-opacity duration-300 flex gap-3 items-center justify-center`}
+                className={`absolute inset-0 bg-black/60 ${activeProject === index ? "opacity-100" : "opacity-0"
+                  } hover:opacity-100 transition-opacity duration-300 flex gap-3 items-center justify-center`}
               >
                 <a
                   href={project.liveUrl}
