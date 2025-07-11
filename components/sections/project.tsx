@@ -8,6 +8,7 @@ import Image1 from "../../constants/homeChef_app.png";
 import Image2 from "../../constants/country_app.png";
 import Image3 from "../../constants/EmployeAdminMangement.png";
 import Image4 from "../../constants/EmployeAdminMangement.png";
+import Image5 from "../../constants/EmployeAdminMangement.png";                                        
 import Image5 from "../../constants/EmployeAdminMangement.png";
   
   
@@ -76,6 +77,36 @@ const Projects = () => {
     "Responsive mobile-first UI",
     "Framer Motion animations",
     "CI/CD pipeline with automated deployment"
+  ],
+},
+    {
+  title: "Let AI Speak to Your Money",
+  description:
+    "An AI-powered financial assistant that securely connects to real-time financial data via Fi's MCP API. It helps users make smart money decisions using natural language chat, scenario simulations, and interactive financial charts.",
+  image: Image6, // Replace with actual image variable
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Chart.js",
+    "Node.js",
+    "Express.js",
+    "Axios",
+    "MongoDB",
+    "Groq",
+    "LLaMA 3",
+    "Fi's MCP API"
+  ],
+  liveUrl: "https://new-frontend-ax82.onrender.com/",
+  githubUrl: "https://github.com/MOHDDANISH007/parisHackathon",
+  features: [
+    "Chat-based AI financial assistant",
+    "Real-time scenario simulations (e.g., 'What if I buy this car?')",
+    "Secure integration with Fi’s MCP for structured data",
+    "Visual financial charts (net worth, assets, liabilities)",
+    "Natural language query handling via Groq + LLaMA 3",
+    "Voice or text input interface",
+    "Exportable PDF financial reports",
+    "User-controlled data privacy and end-to-end security"
   ],
 },
     {
