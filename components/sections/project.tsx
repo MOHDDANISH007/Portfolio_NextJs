@@ -10,6 +10,7 @@ import Image3 from "../../constants/EmployeAdminMangement.png";
 import Image4 from "../../constants/GameNation.png";
 import Image5 from "../../constants/FinanceAI.png";
 import Image6 from "../../constants/TripAdvisor.png"
+import Image7 from "../../constants/ChatApplication.png"
 
 
 
@@ -177,6 +178,36 @@ const Projects = () => {
         "Uses external country data API",
       ],
     },
+
+    {
+      title: "Real-Time Chat Application",
+      description:
+        "A real-time chat application where users can send text and image messages instantly. It supports Google OAuth login, real-time updates, and secure image uploads using Cloudinary. The app provides an interactive and responsive chatting experience with online user tracking.",
+      image: Image7, // import your project screenshot like `import ChatImage from "../assets/chatapp.png";`
+      technologies: [
+        "React.js",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+        "Cloudinary",
+        "Tailwind CSS",
+        "OAuth (Google)"
+      ],
+      liveUrl: "https://your-chat-app-demo-link.vercel.app/", // replace with your live demo URL
+      githubUrl: "https://github.com/yourusername/chat-app", // replace with your GitHub repo
+      features: [
+        "Google OAuth authentication for secure login",
+        "Real-time messaging using Socket.io",
+        "Image upload support with Cloudinary",
+        "JWT authentication with protected routes",
+        "Optimistic UI updates for instant feel",
+        "Online user status tracking",
+        "Responsive design with Tailwind CSS"
+      ],
+    },
+
   ];
 
   return (
